@@ -1,0 +1,41 @@
+$backgroundColor: #efefef;
+$radius: 40%;
+
+form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    margin: auto;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(96, 96, 96);
+    border-radius: 5px;
+    box-shadow: 8px 8px 20px 3px rgba(0, 0, .5, .6);
+
+    label {
+        display: flex;
+        margin: 1rem 0;
+        justify-content: center;
+
+        &.methods {
+            span {
+                cursor: pointer;
+                margin-right: 1rem;
+                padding: .4rem .4rem;
+                background: #ccc;
+                display: flex;
+                margin-left: .5rem;
+                background: #ccc;
+                border-radius: 10px;
+
+                &:hover,
+                &.active {
+                    background: #0b4800;
+                    color: rgb(255, 255, 255);
+                    transition: 0.1s;
+                }
+            }
+        }
+    }
+}
