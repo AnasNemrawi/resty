@@ -13,6 +13,11 @@ form {
 	border-radius: 20px;
 	box-shadow: 8px 8px 20px 3px rgba(0, 0, .5, .6);
 
+	textarea {
+		width: 99%;
+		height: 100px;
+	}
+
 	label {
 		display: flex;
 		margin: 1rem 0;
