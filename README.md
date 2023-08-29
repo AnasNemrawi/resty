@@ -1,14 +1,15 @@
-## LIVE demo
+### To run the website ( npm run dev )
 
-<https://resty1420.netlify.app/>
-
-![-](./demo.png)
+![Alt text](./2.png)
+![Alt text](./1.png)
 
 # UML 
 ![UML Image](./UML.jpg)
 
-### To run the website ( npm run dev )
 
+## LIVE demo
+
+<https://resty1420.netlify.app/>
 
 # React + Vite
 
